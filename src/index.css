@@ -1,0 +1,132 @@
+body{
+  background-color: #121212;
+}
+/*#203B40*/
+
+.navbar{
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  position: absolute;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .logo{
+  padding-left: 50px;
+  flex: 1;
+}
+
+.navbar .links{
+  display: flex;
+  flex-direction: row;
+  padding-right: 50px;
+  gap: 20px;
+}
+
+.navbar .links h3{
+  color: #fff;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.navbar .links h3:hover{
+  color: orange;
+}
+
+.navbar h1{
+  position: relative;
+  color: #fff;
+  display: block;
+  margin: 5px auto;
+}
+
+.navbar span{
+  color: orange;
+}
+
+
+
+.About{
+  width: 100%;
+  height: 100vh;
+  background-color: #121212;
+}
+
+.About .box-title h1{
+  color: #fff;
+}
+
+.About .box{
+  display: block;
+  margin: 0px auto;
+  padding-top: 100px;
+  width: 60%;
+  height: 60%;
+}
+
+.About .box hr{
+  width: 30%;
+  border: 2px solid #fff;
+}
+
+.About .box-content{
+  padding-top: 10px;
+}
+
+.About .box-content p{
+  line-height: 1.5rem;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.About .box-content a{
+  display: block;
+  margin: 20px auto;
+  width: 80px;
+  height: 30px;
+  text-decoration: none;
+}
+
+.About .box-content button{
+  display: block;
+  margin: 20px auto;
+  width: 100px;
+  height: 30px;
+  background-color: transparent;
+  outline: none;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.About .box-content button:hover{
+  border: 2px solid orange;
+  color: orange;
+}
+
+
+@media (max-width: 900px){
+
+  .navbar .logo{
+    margin-top: 5px;
+    padding-left: 20px;
+  }
+
+  .navbar .links{
+    padding-right: 20px;
+  }
+
+  .navbar .links h3{
+    color: #fff;
+    margin-top: 17px;
+    cursor: pointer;
+    font-size: 15px;
+  }
+
+  .navbar .logo h1{
+    font-size: 25px;
+  }
+}
